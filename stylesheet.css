@@ -1,10 +1,13 @@
 body { 
  /* background-color: #87bdd8;*/
  
-  background-image: linear-gradient(#42858c, #87bdd8); /* Standard syntax (must be last) */
+  background-image: linear-gradient(#293dce, #87bdd8); /* Standard syntax (must be last) */
 
   width: 95%; 
   height: 100%;
+}
+.workpage {
+  background-image: linear-gradient(#00b22a	, #90ec7c);
 }
 header {
    
