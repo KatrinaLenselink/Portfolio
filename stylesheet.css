@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body { 
  /* background-color: #87bdd8;*/
  background-color: red; /* For browsers that do not support gradients */
@@ -60,3 +61,67 @@ section {
     padding: 10px; 
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+=======
+body { 
+ /* background-color: #87bdd8;*/
+ background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(#42858c, #87bdd8); /* Standard syntax (must be last) */
+
+  width: 95%; 
+  height: 100%;
+}
+header {
+   
+    width: 100%;
+    height: 50px;
+    margin: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin-right: 12.5%;
+    padding: 25px;
+    overflow: hidden;
+    background-color:none;
+    
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+h1 {
+    color: white;
+    float: left;
+    margin-left: 14.20%;
+    
+
+}
+
+h2 {
+    text-align: center;
+}
+
+section {
+    background-color: #e6f0fb;
+    width: 70%;
+    height: 200px;
+    margin: 20px 15% ;
+    padding: 10px; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+>>>>>>> 7f27fb7068e5ac2e5978c16d5c446099a6b93eea
