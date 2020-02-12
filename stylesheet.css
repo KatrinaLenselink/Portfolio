@@ -8,7 +8,7 @@ body {
   background-image: linear-gradient(	#01dfd9, #00b8ff, #0092ff, #006bff, 	#002bff); /* Standard syntax (must be last) */
 
   width: 100%; 
-  height: 2100px;
+  height: 100%;
   padding-top: 0;
 }
 
@@ -20,6 +20,7 @@ body {
    margin-top: 100px;
    margin-bottom: 10px;
    border: solid 1px black;
+   padding: 10px;
    
  } 
 
@@ -229,6 +230,7 @@ h2 {
   background-color: white;
   position: relative;
   border-radius: 6px;
+  text-align: center;
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
@@ -306,6 +308,38 @@ footer {
   text-align: center;
   margin: 15px;
   float: right;
-  margin-right: 345px;
+  margin-right: 330px;
   
+}
+
+.workheader {
+  width: 60%;
+  background-color: #FF9F55;
+  padding: 2px;
+  margin: 0 auto;
+  margin-top: 70px;
+  border: 1px solid black;
+  color: white;
+  text-shadow:2px 1px black;
+}
+
+/* IMAGE CARDS ON WORK PAGES */ 
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.cardcontain {
+  padding: 2px 16px;
+  background-color: white;
+
 }
