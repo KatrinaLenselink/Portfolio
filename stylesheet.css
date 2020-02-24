@@ -390,7 +390,7 @@ footer {
   background-color: #FF9F55;
   padding: 2px;
   margin: 0 auto;
-  margin-top: 70px;
+  margin-top: 100px;
   border: 1px solid black;
   color: white;
   text-shadow:2px 1px black;
@@ -401,10 +401,11 @@ footer {
 .card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
-  width: 60%;
+  width: 70%;
   margin: 0 auto;
   margin-top: 10px;
   margin-bottom: 10px;
+  
 }
 
 .card:hover {
