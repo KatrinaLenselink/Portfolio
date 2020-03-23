@@ -5,8 +5,7 @@ padding-top: 0;
 
 body { 
  
-  background-image: linear-gradient(	#01dfd9, #00b8ff, #0092ff, #006bff, 	#002bff); /* Standard syntax (must be last) */
-
+  background-color: #b9d5fd;
   width: 100%; 
   height: 100%;
   padding-top: 0;
@@ -14,7 +13,7 @@ body {
 
  .container {
    width: 80%;
-   height: 2100px;
+   height: 100%;
    background-color: white;
    margin: 0 auto;
    margin-top: 100px;
@@ -181,7 +180,7 @@ margin-top: -17px;
 .description {
   margin: 0 auto;
   text-align: center;
-  width: 70%;
+  width: 80%;
   font-size: 20px;
 }
 
@@ -351,28 +350,30 @@ margin-top: -17px;
 footer {
   background-color: white;
   width: 100%;
-  height: 130px;
+  height: 100px;
   margin: 0;
-  padding: 15px;
-  
- opacity: 0.6;
+  padding: 1px;
+  border: 1px solid black;
+  margin-top: 50px;
+
+
   
 }
 
-#footnotes {
+.footnotes {
   text-align: center; 
   float: right;
   padding: 10px;
 }
 
-#footnotes a{
+.footnotes a{
   text-decoration: none;
   color: black;
-  opacity: 0.6;
+  
 }
 
-#footnotes a:hover{
-  opacity: 1.0;
+.footnotes a:hover{
+  opacity: 0.6;
 }
 
 
@@ -386,7 +387,7 @@ footer {
 /* HEADER FOR WORK PAGE */
 
 .workheader {
-  width: 60%;
+  width: 55%;
   background-color: #FF9F55;
   padding: 2px;
   margin: 0 auto;
@@ -394,6 +395,16 @@ footer {
   border: 1px solid black;
   color: white;
   text-shadow:2px 1px black;
+}
+
+.blurb {
+ 
+  width: 55%;
+  margin: 0 auto;
+  padding: 2px; 
+  border: 1px solid black;
+  text-align: center;
+  background-color: white;
 }
 
 /* IMAGE CARDS ON WORK PAGES */ 
@@ -405,7 +416,12 @@ footer {
   margin: 0 auto;
   margin-top: 10px;
   margin-bottom: 10px;
+  border: 1px solid black;
+  padding: 10px;
   
+}
+.card p{
+  font-size: 20px;
 }
 
 .card:hover {
@@ -413,9 +429,10 @@ footer {
 }
 
 .cardcontain {
-  padding: 2px 16px;
+  
   background-color: white;
-
+  
+  
 }
 
 /*FORM INPUT FOR THE CONTACT PAGE */
@@ -438,8 +455,8 @@ label {
 
 /* Style the submit button */
 input[type=submit] {
-  background-color: #4CAF50;
-  color: white;
+  background-color: #b9d5fd;
+  color: black;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
