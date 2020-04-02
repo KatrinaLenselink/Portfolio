@@ -4,7 +4,7 @@
             <head> 
             
             <meta charset="UTF-8">
-            <link href="https://fonts.googleapis.com/css?family=Alice|Reem+Kufi&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Open+Sans|Quicksand&display=swap" rel="stylesheet">
             
             
             <link rel="icon" type="image/png" href="images/favicon.png"/> 
@@ -13,101 +13,75 @@
 
         <title>What's the Tea Project</title>
     </head>
-    <body>
+    <body class="background">
         <header> 
-            <h1><img src="images/favicon.png" alt="logo" > Katrina Lenselink</h1>
+           <a href="index.html"> <h1><img src="images/favicon.png" alt="logo" > Katrina Lenselink</h1></a>
        <nav> 
         <ul>
             <li><a href="ContactPage.html">Contact</a></li> 
+            <li> <a href="AboutPage.html"> About </a></li>
             <li class="dropdown">
               <a href="" class="dropbtn">Work</a>
               <div class="dropdown-content">
-                <a href="WhatsTheTeaPage.html"> What's the Tea</a>
+                <a class="underline"href="WhatsTheTeaPage.html"> What's the Tea</a>
                 <a href="GoodReadsPage.html"> Goodreads Redesign</a>
                 <a href="ArtWebsitePage.html"> VISA Art Website</a>
               </div>
             </li>
-            <li><a class="active" href="index.html">Home</a></li>
           </ul>
 
        </nav>
         
-     </header>
-     <br>
-     <div class="container">
-     <h2> What's the Tea  </h2>
-     <div class="description"> 
-            <p> This is What's the Tea. It was a group project done in a group of three. I worked on the main page, find location page, and the community page. The purpose of this website is to connect users and help them to find restaurants and cafes with the best environmental practices.       
-     </div>
+</header>
 
-     
-     <div class="row">
-         <div class="column">
- 
-         <a target="_blank" href="images/wireframe.PNG">
-           <img src="images/wireframe.PNG" alt="beginning wireframe" style="width:100%">
-         </a>
-         <p> Click on photo to expand</p>
-         </div>
- 
-         <div class="column">
-         <a target="_blank" href="https://www.figma.com/proto/txuTAJPE7KAGfKo4zcXetC/What-s-the-Tea?node-id=69%3A2&scaling=scale-down">
-           <img src="images/figmapage.PNG" alt="figma design " style="width:100%">
-         </a>
-         <p> Click on photo to view Figma prototype</p>
-         </div>
- 
-         <div class="column">
-         <a target="_blank" href="https://katrinalenselink.github.io/Whats-the-Tea/mainPage.html">
-           <img src="images/mainPagecrop.png" alt="full website image" style="width:100%">
-         </a>
-         <p> Click on photo to view full website</p>
-         </div>
-       </div>
- 
-       <hr class="line"> 
-     <br> 
+<div class="container"> 
+  <h2> What's the Tea Website </h2>
 
-     <h2> The Process </h2>
-     <br>
+  <div class="description"> 
+    <p> This is What's the Tea. It was a group project done in a group of three. I worked on the main page, find location page, and the community page. The purpose of this website is to connect users and help them to find restaurants and cafes with the best environmental practices.
+    </div>
 
-        
-        <div class="card">
-          <h3><b>Wireframe stage</b></h3> 
-              <p> Our main focus when designing the wireframe was to keep it simplistic and user-friendly. We placed the navigation bar along the top so that it would be easily accessible but not in the way of users.  </p>
-            
-            <div class="cardcontain">
-               <img src="images/wireframe.PNG" alt="wireframe" style="width:100%">
-              
-            </div>
-          </div>
+       <div class="slideshow-container">
 
-          <br> 
-          
-          <div class="card">
-            <h3><b> Figma design stage</b></h3> 
-              <p> We chose the green colour palette as we wanted to focus on the environment and natural tones. We kept our Figma designs similar to the initial wireframes and added a few more pages.  </p> 
-              
-            <div class="cardcontain">
-              <img src="images/figmapage.PNG" alt="figma page" style="width:100%">
-              
-              
-            </div>
-          </div>
-
-          <br> 
-
-          <div class="card">
-           <h3><b>Final Website stage</b></h3> 
-              <p>The final website had to be an HTML website so my team needed to adapt our inital designs to fit the layout and space of a desktop. We tried to keep the layout as similar as possible and mostly expanded the content to fill the space. We feel the desktop application felt less cluttered and was a better user experience compared to the mobile design.  </p> 
-            <div class="cardcontain">
-               <img src="images/mainPage.PNG" alt="Main Website" style="width:100%">
-              
-              
-            </div>
-          </div>
-
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <a target="_blank" href="https://katrinalenselink.github.io/Whats-the-Tea/mainPage.html">
+            <img src="images/mainPage.png" alt="Landing page of website" style="width:100%">
+          </a>
+          <div class="text">This is the landing page of the website</div>
         </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <a target="_blank" href="https://www.figma.com/proto/txuTAJPE7KAGfKo4zcXetC/What's-the-Tea%3F?node-id=69%3A2&scaling=scale-down">
+            <img src="images/figmapage.png" alt="figma design stage" style="width:100%">
+          </a>
+          <div class="text">This is the layout of the Figma design stage</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <a target="_blank" href="images/wireframe.png">
+            <img src="images/wireframe.png" alt="beginning wireframe" style="width:100%">
+          </a>
+         
+          <div class="text">This is the beginning stages of planning out the website</div>
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+      </div>
+
+    
 
      <footer>
 
@@ -132,7 +106,7 @@
     </footer>
 
 
-   
+    <script type="text/javascript" src="javascript.js"></script>
 
     </body>
 </html>

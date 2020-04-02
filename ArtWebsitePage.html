@@ -4,7 +4,7 @@
             <head> 
             
             <meta charset="UTF-8">
-            <link href="https://fonts.googleapis.com/css?family=Alice|Reem+Kufi&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Open+Sans|Quicksand&display=swap" rel="stylesheet">
             
             
             <link rel="icon" type="image/png" href="images/favicon.png"/> 
@@ -13,21 +13,20 @@
 
         <title>Art Website</title>
     </head>
-    <body>
+    <body class="background">
         <header> 
-            <h1><img src="images/favicon.png" alt="logo" > Katrina Lenselink</h1>
+           <a href="index.html"> <h1><img src="images/favicon.png" alt="logo" > Katrina Lenselink</h1></a>
        <nav> 
-        <ul>
-            <li><a href="ContactPage.html">Contact</a></li> 
+        <ul><li><a href="ContactPage.html">Contact</a></li> 
+          <li> <a href="AboutPage.html"> About</a> </li>
             <li class="dropdown">
-              <a href="" class="dropbtn">Work</a>
+              <a href="" class="dropbtn" >Work</a>
               <div class="dropdown-content">
                 <a href="WhatsTheTeaPage.html"> What's the Tea</a>
                 <a href="GoodReadsPage.html"> Goodreads Redesign</a>
-                <a href="ArtWebsitePage.html"> VISA Art Website</a>
+                <a class="underline" href="ArtWebsitePage.html"> VISA Art Website</a>
               </div>
             </li>
-            <li><a class="active" href="index.html">Home</a></li>
           </ul>
 
        </nav>
@@ -38,66 +37,53 @@
         <h2> VISA Art Website </h2>
 
         <div class="description"> 
-          <p> This section is where I will include my work from the Web Art: Image/ Text Exchange  Assignment in VISA 2P61. It is an interactive website designed to challenge the traditional website layout and create a work of art instead. The pictures will still show the progress from a basic outline to the finished product. 
-   </div>
-        <div class="row">
-          <div class="column">
-              <a target="_blank" href="images/imageplaceholder.png">
-            <img src="images/imageplaceholder.png" alt="image placeholder" style="width:100%">
-          </a>
+          <p> This section is where I will include my work from the Web Art: Image/ Text Exchange  Assignment in VISA 2P61. It is an interactive website designed to challenge the traditional website layout and create a work of art instead. 
           </div>
-          <div class="column">
-              <a target="_blank" href="images/imageplaceholder.png">
-            <img src="images/imageplaceholder.png" alt="image placeholder" style="width:100%">
-            </a>
-          </div>
-          <div class="column">
-              <a target="_blank" href="images/imageplaceholder.png">
-            <img src="images/imageplaceholder.png" alt="image placeholder" style="width:100%">
-            </a>
-          </div>
-        </div>
+
+
+
+<div class="slideshow-container">
+<div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <a target="_blank" href="images/WhenTheyCallMainPage.png">
+      <img src="images/WhenTheyCallMainPage.png" alt="beginning wireframe" style="width:100%">
+    </a>
+   
+    <div class="text">This is the beginning page of the html pages</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <a target="_blank" href="https://katrinalenselink.github.io/WhenTheyCall/WhenTheyCall.html">
+      <img src="images/twinehtml.png" alt="twine html story" style="width:100%">
+    </a>
+    <div class="text">This is the basic html pages that just show the story  </div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <a target="_blank" href="images/StoryLayout.png">
+      <img src="images/StoryLayout.png" alt="beginning wireframe" style="width:100%">
+    </a>
+    <div class="text">This is the entire layout of all 82 pages and how all the different decisions branch off into different story lines</div>
+  </div>
+  <br>
+  <br>
+  <br>
   
   
-   <br>
-   <hr class="line"> 
-   <br>
-   <h2> The Process </h2>
-        <br> 
-        <div class="card">
-            <h3><b>Wireframe stage</b></h3> 
-              <p>This is where I will give a brief explaination about the wireframing process and why I chose to do it this way. </p> 
-              
-            <div class="cardcontain">
-             <img src="images/imageplaceholder.png" alt="wireframe" style="width:100%"> 
-            </div>
-          </div>
-
-          <br> 
-          
-          <div class="card">
-            <h3><b> Figma design stage</b></h3> 
-              <p>This is where I will give a brief explaination about the Figma design process and why I chose to do it this way. </p> 
-             
-              
-            <div class="cardcontain">
-             <img src="images/imageplaceholder.png" alt="figma page" style="width:100%"> 
-            </div>
-          </div>
-
-          <br> 
-
-          <div class="card">
-            <h3><b>Final Website stage</b></h3> 
-              <p>This is where I will give a brief explaination about the whole process and why I chose to do it this way.  </p> 
-            
-            <div class="cardcontain">
-             <img src="images/imageplaceholder.png" alt="Main Website" style="width:100%"> 
-            </div>
-          </div>
-
-        </div>
-
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+  </div>
+  <br>
+  
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span> 
+  </div>
+</div>
      <footer>
 
         <div class="footnotes">
@@ -121,7 +107,7 @@
     </footer>
 
 
-   
+  <script type="text/javascript" src="javascript.js"></script> 
 
     </body>
 </html>
