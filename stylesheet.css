@@ -353,7 +353,6 @@ input[type=submit] {
   width: 60%;
   margin-left: 330px;
   margin-bottom: 40px;
-  margin: 0 auto;
   font-family: 'Quicksand', sans-serif;
   border: 1px solid black;
 }
