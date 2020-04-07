@@ -598,8 +598,17 @@ li .underline {
 
 * {box-sizing: border-box}
 body {font-family: Verdana, sans-serif; margin:0}
-.mySlides {display: none}
 img {vertical-align: middle;}
+
+
+.mySlides {
+  display: none
+}
+
+.mySlides a:hover{
+  opacity: 0.7;
+}
+
 
 /* Slideshow container */
 .slideshow-container {
@@ -621,7 +630,8 @@ img {vertical-align: middle;}
   width: auto;
   padding: 16px;
   margin-top: -22px;
-  color: white;
+  color: black;
+  background-color:rgba(219, 217, 217, 0.8);
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
@@ -638,6 +648,7 @@ img {vertical-align: middle;}
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
+  color: white;
 }
 
 /* Caption text */
